@@ -1,4 +1,7 @@
 const d = document
+
+/*EJERCICIO 1*/
+
 const img = d.querySelector("img")
 
 border=["red 2px solid",""]
@@ -9,7 +12,7 @@ img.addEventListener("click", (e)=>{
     borderIndex=(borderIndex+1)% border.length
 })
 
-
+/* EJERCICIO 2 */
 
 let contenedor=d.querySelector(".contenedor")
 contenedor.addEventListener("submit",(e)=>{
@@ -49,6 +52,8 @@ contenedor.addEventListener("submit",(e)=>{
     `
     }
 })
+
+/*EJERCICIO 3 */
 
 const pass1=d.querySelector("#pass1")
 pass1.addEventListener("change", (e)=>{
